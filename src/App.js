@@ -1,6 +1,7 @@
 import './App.css';
 import { dataDay1, getNumberOfIncrements, getNumberOfSlidingWindowIncrements } from './Day1';
 import { dataDay2, getDirection, getDirectionWithAim } from './Day2';
+import { dataDay3 , getGammaAndEpsilon, getLifeSupportRating} from './Day3';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
         </p>
         <p>
           Day 2 B: {getDirectionWithAim(dataDay2)}
+        </p>
+        <p>
+          Day 3 A: {getGammaAndEpsilon(dataDay3)}
+        </p>
+        <p>
+          Day 3 B: {getLifeSupportRating(dataDay3)}
         </p>
       </header>
     </div>
