@@ -25,6 +25,12 @@ function App() {
         <p>
           Day 3 B: {getLifeSupportRating(dataDay3)}
         </p>
+        <p>
+          Day 4 A: {}
+        </p>
+        <p>
+          Day 4 B: {}
+        </p>
       </header>
     </div>
   );
