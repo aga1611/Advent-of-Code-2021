@@ -2,6 +2,7 @@ import './App.css';
 import { dataDay1, getNumberOfIncrements, getNumberOfSlidingWindowIncrements } from './Day1';
 import { dataDay2, getDirection, getDirectionWithAim } from './Day2';
 import { dataDay3 , getGammaAndEpsilon, getLifeSupportRating} from './Day3';
+import { dataDay5, dataDay5try, getLinesOverlap, getLinesOverlapWithDiagonal } from './Day5';
 
 function App() {
   return (
@@ -30,6 +31,12 @@ function App() {
         </p>
         <p>
           Day 4 B: {}
+        </p>
+        <p>
+          Day 5 A: {getLinesOverlap(dataDay5)}
+        </p>
+        <p>
+          Day 5 B: {getLinesOverlapWithDiagonal(dataDay5try)}
         </p>
       </header>
     </div>
