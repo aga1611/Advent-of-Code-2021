@@ -4,6 +4,7 @@ import { dataDay2, getDirection, getDirectionWithAim } from './Day2';
 import { dataDay3, getGammaAndEpsilon, getLifeSupportRating } from './Day3';
 import { dataDay5, getLinesOverlap } from './Day5';
 import { day6Data, getNumberOfFish } from './Day6';
+import { day7Data, findPosition } from './Day7';
 
 function App() {
   return (
@@ -40,10 +41,16 @@ function App() {
           Day 5 B: { }
         </p>
         <p>
-          Day 6 A: {getNumberOfFish(day6Data, 80)}
+          Day 6 A: {getNumberOfFish(day6Data, 18)}
         </p>
         <p>
           Day 6 B: 1710166656900
+        </p>
+        <p>
+          Day 7 A: {findPosition(day7Data)}
+        </p>
+        <p>
+          Day 7 B: 100727924
         </p>
       </header>
     </div>
