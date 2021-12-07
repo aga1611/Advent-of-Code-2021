@@ -1,8 +1,9 @@
 import './App.css';
 import { dataDay1, getNumberOfIncrements, getNumberOfSlidingWindowIncrements } from './Day1';
 import { dataDay2, getDirection, getDirectionWithAim } from './Day2';
-import { dataDay3 , getGammaAndEpsilon, getLifeSupportRating} from './Day3';
-import { dataDay5, dataDay5try, getLinesOverlap, getLinesOverlapWithDiagonal } from './Day5';
+import { dataDay3, getGammaAndEpsilon, getLifeSupportRating } from './Day3';
+import { dataDay5, getLinesOverlap } from './Day5';
+import { day6Data, getNumberOfFish } from './Day6';
 
 function App() {
   return (
@@ -27,16 +28,22 @@ function App() {
           Day 3 B: {getLifeSupportRating(dataDay3)}
         </p>
         <p>
-          Day 4 A: {}
+          Day 4 A: { }
         </p>
         <p>
-          Day 4 B: {}
+          Day 4 B: { }
         </p>
         <p>
           Day 5 A: {getLinesOverlap(dataDay5)}
         </p>
         <p>
-          Day 5 B: {getLinesOverlapWithDiagonal(dataDay5try)}
+          Day 5 B: { }
+        </p>
+        <p>
+          Day 6 A: {getNumberOfFish(day6Data, 80)}
+        </p>
+        <p>
+          Day 6 B: 1710166656900
         </p>
       </header>
     </div>
